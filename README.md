@@ -1,3 +1,3 @@
 # Github Api - User Search
 
-Demo : http://lab.kodlimon.com/github-api-user-search
+Demo : <a href="http://lab.kodlimon.com/github-api-user-search" target="_blank">View Project</a>
