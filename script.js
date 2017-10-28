@@ -1,9 +1,9 @@
 var app = new Vue({
   el: '#searchUser',
   data: {
-    query:"bekir",
+    query:"",
     results: false,
-    userNameLength:8
+    userNameLength: 8
   },
   methods: {
     search: function(){
