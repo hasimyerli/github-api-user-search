@@ -1,0 +1,35 @@
+.developer-card {
+  text-align: center;
+}
+.tag-a {
+  color: #24292e;
+}
+.chip {
+  width: 100% !important;
+  margin:5px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ddd;
+  background: none;
+  cursor: pointer;
+}
+.chip:hover>a{
+  color: #6f42c1;
+}
+.chip:hover>img{
+  opacity: 0.7;
+}
+.chip>img {
+    float: left;
+    margin: 0 8px 0 -20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+.align-center {
+  text-align: center;
+}
+.github-logo {
+  padding: 15px;
+}
