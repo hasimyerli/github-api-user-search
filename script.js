@@ -3,7 +3,7 @@ var app = new Vue({
   data: {
     query:"",
     results: false,
-    userNameLength: 8
+    userNameLength: 9
   },
   methods: {
     search: function(){
