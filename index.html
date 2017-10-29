@@ -35,7 +35,7 @@
                     <div class="chip">
                      <img :src="item.avatar_url">
                      <a :href="item.html_url" class="tag-a left" target="_blank" rel="noreferrer noopener">
-                       <span v-if="item.login.length > userNameLength">{{item.login.substring(0,nameLength)}}<small> ...</small></span>
+                       <span v-if="item.login.length > userNameLength">{{item.login.substring(0,userNameLength)}}<small> ...</small></span>
                        <span v-else>{{item.login}}</span>
                      </a>
                      <small class="right">: {{item.score}}</span>
